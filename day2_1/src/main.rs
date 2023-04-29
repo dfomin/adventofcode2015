@@ -10,7 +10,7 @@ fn read_lines(filename: String) -> io::Lines<BufReader<File>> {
 
 fn main() {
     let mut result = 0;
-    for line in read_lines("../inputs/day2_1.txt".to_string()) {
+    for line in read_lines("../inputs/day2.txt".to_string()) {
         let dims: Vec<i32> = line
             .unwrap()
             .split("x")
